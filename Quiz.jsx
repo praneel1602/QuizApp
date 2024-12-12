@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Quiz.css';
-import { data } from '../../assets/data';
+import { data } from './data';
+
 
 const shuffleArray = (array) => {
     const shuffled = [...array];
